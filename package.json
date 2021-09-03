@@ -1,0 +1,29 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "My docker demos",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipbosnjak/Docker.git"
+  },
+  "keywords": [
+    "docker"
+  ],
+  "author": "Filip Bošnjak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipbosnjak/Docker/issues"
+  },
+  "homepage": "https://github.com/filipbosnjak/Docker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

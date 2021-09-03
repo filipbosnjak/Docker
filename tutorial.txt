@@ -1,0 +1,20 @@
+Dockerfile - instructions for building images that we will run inside of a container (one or multiple)
+
+--Running git inside a container--
+
+docker run --name repo alpine/git  clone \ https://github... .git
+
+docker cp repo:/name/folder
+
+--Build--
+
+docker build -t nameOfTheImage
+
+--Run--
+docker run -d -p 80:80 \ --name docker-tutorial nameOfTheImage
+
+-p -> port port_we_want:port_in_container
+
+--List images--
+
+docker image ls
